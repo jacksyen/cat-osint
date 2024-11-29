@@ -5,7 +5,7 @@ from typing import Union, Optional
 from datetime import datetime
 import json
 
-from utils import default_header_user_agent
+from . import default_header_user_agent
 
 
 

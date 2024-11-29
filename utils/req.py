@@ -6,10 +6,10 @@ from typing import Union, List
 import asyncio
 
 
-from utils import default_header_user_agent
+from . import default_header_user_agent
 
-from utils.models import API
-from utils.log import logger
+from .models import API
+from .log import logger
 
 
 def reqAPI(api: API, client: Union[httpx.Client, httpx.AsyncClient]) -> httpx.Response:
